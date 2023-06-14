@@ -6,7 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="public double getBonificacao() {"/>
 		<list key="findhistory">
+			<item value="public double getBonificacao() {"/>
+			<item value="package bytebank_encapsulado;"/>
+			<item value="//proibido:"/>
 		</list>
 		<list key="replacehistory">
 		</list>

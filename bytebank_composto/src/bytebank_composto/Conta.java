@@ -7,7 +7,8 @@ numero
 titular*/
 public class Conta {
 	// Atributos
-	double saldo;
+	//Fora da class não pode ser modificado e nem lido;
+	private double saldo;
 	int numero;
 	int agencia;
 	Cliente titular;
@@ -36,8 +37,13 @@ public class Conta {
 			destino.deposita(valor);
 			return true;
 		}
-		return false;
-		
+		return false;	
+	}
+	//Encapsulamento
+	//Criamos o método que retorna aquele informação, mas não manipula-lá
+	//Métodos que pegam uma informação, geralment usamos get
+	public double getSaldo() {
+		return this.saldo;
 	}
 
 }

@@ -3,7 +3,7 @@ package bytebank_composto;
 public class TestaContaSemCliente {
 	public static void main(String[] args) {
 		Conta contaDaMarcela = new Conta();
-		System.out.println(contaDaMarcela.saldo);
+		System.out.println(contaDaMarcela.getSaldo());
 		//Se não criar o objeto cliente, o titular da contaDaMarcela vai ser null, ele não aponta para ninguem.
 		contaDaMarcela.titular = new Cliente();
 		System.out.println(contaDaMarcela.titular);
