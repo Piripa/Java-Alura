@@ -2,6 +2,10 @@ package bytebank_herdado;
 
 public class TesteGerente {
 	public static void main(String[] args) {
+		//posso usar uma referencai de uma interface;
+		Autenticavel referencia = new Cliente();
+		
+		
 		Gerente g1 = new Gerente();
 		g1.setNome("Marcos");
 		g1.setCpf("2355668413");

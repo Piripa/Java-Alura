@@ -1,16 +1,14 @@
 package bytebank_herdado;
-
-public class Funcionario {
+//é algo abstrato, não concreto, o compilador não permite instanciar um objeto dessa classe
+//funcionário é um conceito
+public abstract class Funcionario {
 	private String nome;
 	private String cpf;
 	//protected significa que é publico para class filhas que herdaram da class mãe
 	private double salario;
 	
-	
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
-	
+	//método não concreto, método abstrato, método não tem corpo,não há implementação,obriga os filgos a implementar o método;
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
