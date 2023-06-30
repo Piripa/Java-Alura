@@ -7,7 +7,7 @@ public abstract class Funcionario {
 	//protected significa que é publico para class filhas que herdaram da class mãe
 	private double salario;
 	
-	//método não concreto, método abstrato, método não tem corpo,não há implementação,obriga os filgos a implementar o método;
+	//método não concreto, método abstrato, método não tem corpo,não há implementação,obriga os filhos a implementar o método;
 	public abstract double getBonificacao();
 	
 	public String getNome() {
